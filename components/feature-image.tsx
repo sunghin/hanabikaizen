@@ -13,13 +13,13 @@ export function FeatureImage({
   image: FeatureImageContent;
 }>) {
   return (
-    <section className="overflow-hidden rounded-[2rem] border border-[color:var(--border)] bg-black">
+    <section className="h-32 overflow-hidden rounded-[2rem] border border-[color:var(--border)] bg-black sm:h-40 lg:h-48">
       <Image
         src={image.src}
         alt={image.alt}
         width={image.width}
         height={image.height}
-        className="h-auto w-full object-cover"
+        className="h-full w-full object-cover"
       />
     </section>
   );
