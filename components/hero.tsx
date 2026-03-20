@@ -23,7 +23,7 @@ export function Hero({ content }: Readonly<{ content: HeroContent }>) {
       <div className="mt-10 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <a
           href={content.primaryLink.href}
-          className="w-fit rounded-full border border-white bg-black px-5 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-black"
+          className="w-fit rounded-full border border-white bg-black px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-white hover:!text-black"
         >
           {content.primaryLink.label}
         </a>
